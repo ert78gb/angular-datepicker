@@ -1,24 +1,17 @@
-[![Build Status](https://travis-ci.org/vlio20/angular-datepicker.svg?branch=master)](https://travis-ci.org/vlio20/angular-datepicker)  
-[![npm version](https://badge.fury.io/js/ng2-date-picker.svg)](https://badge.fury.io/js/ng2-date-picker)
-[![Package Quality](http://npm.packagequality.com/shield/ng2-date-picker.svg)](http://packagequality.com/#?package=ng2-date-picker)
+[![Build Status](https://travis-ci.org/ert78gb/angular-datepicker.svg?branch=master)](https://travis-ci.org/vlio20/angular-datepicker)  
+
+This package is the modified version of [vlio20/angular-datepicker](https://vlio20.github.io/angular-datepicker/).
+It is support OnPush change detection strategy. I created a [PR](https://github.com/vlio20/angular-datepicker/pull/217), but vlio20 not support the merge. 
+Details in the PR's conversation.
 
 # Date Picker
 This is a configurable date-picker build for Angular2 applications and uses MomentJS as its dependency.
-Support OnPush change detection strategy.
-[DEMO](https://vlio20.github.io/angular-datepicker/)
-
-## Screenshots
-![Imgur](http://i.imgur.com/4ZV7r5e.png)
-
-![Imgur](http://i.imgur.com/Kho8Joq.png)
-
-![Imgur](http://imgur.com/uKklzbq.png)
 
 ## Installation:
 1. Download from npm:
-`npm install ng2-date-picker --save`  
+`npm install ng2-date-picker-op --save`  
 2. import the `DpDatePickerModule` module:  
- `import {DpDatePickerModule} from 'ng2-date-picker';`  
+ `import {DpDatePickerModule} from 'ng2-date-picker-op';`  
 3. Add `DpDatePickerModule` to your module imports:  
 ```ts
  @NgModule({
